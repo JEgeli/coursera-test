@@ -26,20 +26,24 @@ h2 {
   margin: -1px;
   padding: 5px 15px 5px 15px;
   color: #fff;
+  position: relative;
+  top: 15px;
+  right: 15px;
+  margin-bottom: 15px;
 }
 
-#chicken {
-background-color: #7c786a;
-}
+h2#chicken {
+  background-color: #7c786a;
+ }
 
 #beef {
-background-color: #eb6e44;
-}
+  background-color: #eb6e44;
+  }
 
 #sushi
 {
-background-color: #376775;
-}
+  background-color: #376775;
+ }
 
 p {
 font-size: 1.6em;
@@ -94,4 +98,19 @@ min-height: 223px;
    .col-md-12 {
     width: 100%;
   }
+   body {
+    background-color: #E2E397;
+   }
+}
+/********** small devices only **********/
+@media (max-width: 767px) {
+  .col-xs-12 {
+   float: left;
+}
+  .col-xs-12 {
+   width: 100%;
+}
+   body {
+    background-color: #FEFFB1;
+   }
 }
