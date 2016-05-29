@@ -52,7 +52,7 @@ margin: 0px;
 clear: right;
 }
 
-article {
+div .holder {
 margin:15px;
 background-color: #8dcdc1;
 border: 1px solid black;
